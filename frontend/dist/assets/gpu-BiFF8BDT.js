@@ -1,0 +1,1 @@
+import{S as e}from"./index-BAzr2iUZ.js";function n(t){return e({url:"/api/v1/gpu/list",method:"get",params:t})}function u(t){return e({url:`/api/v1/gpu/${t}`,method:"get"})}function p(t){return u(t)}function o(t,r="hour"){return e({url:`/api/v1/gpu/metrics/${t}`,method:"get",params:{period:r}})}export{p as a,n as b,o as g};

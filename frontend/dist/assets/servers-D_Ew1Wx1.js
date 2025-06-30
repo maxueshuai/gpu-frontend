@@ -1,0 +1,1 @@
+import{S as r}from"./index-BAzr2iUZ.js";function s(e){return r({url:"/api/v1/servers",method:"get",params:e})}function o(e){return r({url:`/api/v1/servers/${e}`,method:"delete"})}export{o as d,s as g};
